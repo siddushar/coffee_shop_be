@@ -1,0 +1,3 @@
+class OrderAcceptedMailer < ApplicationMailer
+
+end
