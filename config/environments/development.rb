@@ -97,75 +97,13 @@ config.action_mailer.raise_delivery_errors = true
 config.action_mailer.perform_caching = false
 config.action_mailer.default_url_options = { host: '127.0.0.1:5000' }
 config.action_mailer.delivery_method = :smtp
-
-# config.action_mailer.smtp_settings = {
-#   :user_name => 'siddusharr@gmail.com', # This is the string literal 'apikey', NOT the ID of your API key
-#   :password => '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', # This is the secret sendgrid API key which was issued during API key creation
-#   :domain => 'localhost:5000',
-#   :address => 'smtp.sendgrid.net',
-#   :port => 587,
-#   :authentication => :login,
-#   :enable_starttls_auto => true
-# }
-
-# config.action_mailer.smtp_settings = {
-#   address:              'smtp.gmail.com',
-#   port:                 587,
-#   domain:               'localhost:5000',
-#   user_name:            'siddusharr@gmail.com',
-#   password:             'siddu19992',
-#   authentication:       'plain',
-#   enable_starttls_auto: true
-# # }
-
-# config.action_mailer.smtp_settings = {
-#   address:              "smtp.sendgrid.net",
-#   port:                 587,
-#   domain:               "localhost:5000",
-#   authentication:       :login,
-#   # tls:                  true,
-#   user_name:            "siddusharr@myapp.net",
-#   password:             "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"
-# }
-
-# config.action_mailer.smtp_settings = {
-# :enable_starttls_auto => true,
-#   :address        => "smtp.gmail.com",
-#   :port           => 587,
-#   :domain         => "gmail.com",
-#   :authentication => :plain,
-#   :user_name  => "siddusharr@gmail.com",
-#   :password  => "siddu1992"
-# }
-
-# SMTP settings for gmail
-# config.action_mailer.smtp_settings = {
-#   address:              'smtp.gmail.com',
-#   port:                 1187,
-#   domain:               'gmail.com',
-#   user_name:            'siddusharr@gmail.com',
-#   password:             'cusudnjvcqscivqt',
-#   authentication:       'plain',
-#   ssl:                  true,
-#   enable_starttls_auto: true
-#   # :address              => "smtp.gmail.com",
-#   # :domain               => "gmail.com",
-#   # :port                 => 587,
-#   # :user_name            => "siddushar@gmail.com",
-#   # :password             => "38Sid@1992#Gmail",
-#   # :authentication       => "plain"
-#   # :enable_starttls_auto => true
-# }
-
-
-config.action_mailer.delivery_method = :smtp
 config.action_mailer.perform_deliveries = true
 config.action_mailer.smtp_settings = {
     :address              => "smtp.gmail.com",
     :port                 => "587",
     :domain               => "gmail.com",
-    :user_name            => "siddusharr@gmail.com",
-    :password             => "siddu1992",
+    :user_name            => "test@gmail.com",
+    :password             => "trest",
     :authentication       => :plain,
     :enable_starttls_auto => true
 }
